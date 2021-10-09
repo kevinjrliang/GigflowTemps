@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from './Logo'
 import LoginButtons from './LoginButtons'
+import {withRouter} from 'react-router-dom'
 
 
 const LoginScreen = () => {
@@ -12,4 +13,4 @@ const LoginScreen = () => {
     )
 }
 
-export default LoginScreen
+export default withRouter(LoginScreen)
