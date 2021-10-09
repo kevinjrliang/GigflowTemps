@@ -1,9 +1,13 @@
 import React from 'react'
+import Logo from './Logo'
+import LoginButtons from './LoginButtons'
+
 
 const LoginScreen = () => {
     return (
         <div>
-            <h1>login</h1>
+            <Logo />
+            <LoginButtons />
         </div>
     )
 }
